@@ -4,6 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
               echo 'welcome '
+              ping '8.8.8.8'
             }
         }
         stage('Test') { 
